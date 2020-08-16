@@ -90,6 +90,16 @@
 	Works similarly to worn sprite_sheets, except the alternate sprites are used when the clothing/refit_for_species() proc is called.
 	*/
 
+	// Sound Stuff (Ported from Aurora, Nebula.)
+
+	// Sound used for equipping an item into a valid slot.
+	var/equip_sound
+	// Sound Var for picking up an item
+	var/pickup_sound = 'sound/urist/items/pickup/device.ogg'
+	// Sound variable used for when you drop an item, or if throwing an item.
+	var/drop_sound = 'sound/urist/items/drop/device.ogg'
+
+//\sound\urist\items\pickup
 /obj/item/New()
 	..()
 	if(randpixel && !(pixel_x || pixel_y) && isturf(loc)) //hopefully this will prevent us from messing with mapper-set pixel_x/y
@@ -258,6 +268,28 @@
 /obj/item/proc/moved(mob/user as mob, old_loc as turf)
 	return
 
+/obj/item/proc/get_volume_by_throwforce_and_or_w_class()
+	if(throwforce && w_class)
+		return Clamp((throwforce + w_class) * 5, 30, 100)// Add the item's throwforce to its weight class and multiply by 5, then clamp the value between 30 and 100
+	else if(w_class)
+		return Clamp(w_class * 8, 20, 100) // Multiply the item's weight class by 8, then clamp the value between 20 and 100
+	else
+		return 0
+
+/obj/item/throw_impact(atom/hit_atom)
+	..()
+	if(isliving(hit_atom)) //Living mobs handle hit sounds differently.
+		var/volume = get_volume_by_throwforce_and_or_w_class()
+		if (throwforce > 0)
+			if(hitsound)
+				playsound(hit_atom, hitsound, volume, TRUE, -1)
+			else
+				playsound(hit_atom, 'sound/weapons/genhit.ogg', volume, TRUE, -1)
+		else
+			playsound(hit_atom, 'sound/weapons/throwtap.ogg', 1, volume, -1)
+	else if(drop_sound)
+		playsound(src, drop_sound, 50)
+
 // apparently called whenever an item is removed from a slot, container, or anything else.
 /obj/item/proc/dropped(mob/user as mob)
 	if(randpixel)
@@ -304,6 +336,17 @@
 		M.l_hand.update_twohanding()
 	if(M.r_hand)
 		M.r_hand.update_twohanding()
+
+	if((slot_flags & slot))
+		if(equip_sound)
+			playsound(src, equip_sound, 50)
+		else if(drop_sound)
+			playsound(src, drop_sound, 50)
+	else if(slot == slot_l_hand || slot == slot_r_hand)
+		if(pickup_sound)
+			playsound(src, pickup_sound, 50)
+
+
 
 //Defines which slots correspond to which slot flags
 var/list/global/slot_flags_enumeration = list(

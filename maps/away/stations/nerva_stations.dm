@@ -42,6 +42,42 @@
 	accessibility_weight = 10
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
+// Waystation
+/obj/effect/overmap/sector/station/waystation
+	name = "Waystation"
+	desc = "A Waystation often used as a pitstop for travellers and traders, dock here to trade with with it's merchants."
+	faction = "nanotrasen"
+	spawn_ships = FALSE
+	start_x = 15
+	start_y = 18
+	spawn_type = /mob/living/simple_animal/hostile/overmapship/nanotrasen/ntmerchant
+
+	initial_generic_waypoints = list(
+		"way_trading_1",
+		"way_trading_2"
+		)
+
+/obj/effect/shuttle_landmark/way_trading/nav1
+	name = "Visitor's Bay"
+	landmark_tag = "way_trading_1"
+	base_area = /area/spacestations/nanotrasenspace
+	base_turf = /turf/simulated/floor/plating
+
+/obj/effect/shuttle_landmark/way_trading/nav2
+	name = "Loading Bay"
+	landmark_tag = "way_trading_2"
+	base_area = /area/spacestations/nanotrasenspace
+	base_turf = /turf/simulated/floor/plating
+
+/datum/map_template/ruin/away_site/waystation
+	name = "Waystation"
+	id = "awaysite_waystation"
+	description = "A Waystation, often used as a pitstop for travellers and traders, dock here to trade with with it's merchants."
+	suffixes = list("stations/waystation.dmm")
+	cost = 0
+	accessibility_weight = 10
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
+
 //nt mining outpost
 /*
 /obj/effect/overmap/sector/station/nanotrasenmining

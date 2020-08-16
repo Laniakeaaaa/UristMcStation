@@ -4,6 +4,11 @@
 /datum/uplink_item/item/stealth_items
 	category = /datum/uplink_category/stealth_items
 
+/datum/uplink_item/item/stealth_items/balaclava
+	name = "Balaclava"
+	item_cost = 1
+	path = /obj/item/clothing/mask/balaclava
+
 /datum/uplink_item/item/stealth_items/syndigaloshes
 	name = "No-Slip Shoes"
 	item_cost = 4

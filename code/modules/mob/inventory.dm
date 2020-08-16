@@ -175,6 +175,12 @@ var/list/slot_equipment_priority = list( \
 	if(hand)	return drop_l_hand(Target)
 	else		return drop_r_hand(Target)
 
+	. = (hand ? drop_l_hand(Target) : drop_r_hand(Target))
+
+	if(istype(Target, /obj/item) && !QDELETED(Target))
+		var/obj/item/I = Target
+		if(I.drop_sound)
+			playsound(I, I.drop_sound, 25, 0)
 /*
 	Removes the object from any slots the mob might have, calling the appropriate icon update proc.
 	Does nothing else.

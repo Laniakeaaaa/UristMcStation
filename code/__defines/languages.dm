@@ -22,6 +22,7 @@
 #define LANGUAGE_RESOMI "Schechi"
 #define LANGUAGE_YEOSA          "Yeosa'unathi"
 #define LANGUAGE_LEGALESE       "Legalese"
+#define LANGUAGE_FUNGALMIND     "Fungal Mind"
 
 // Language flags.
 #define WHITELISTED  1   // Language is available if the speaker is whitelisted.

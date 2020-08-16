@@ -26,33 +26,33 @@
 	response_disarm = "pulls down"
 	response_harm = "grasps"
 
-/mob/living/simple_animal/hostile/urist/hololab/holoman  // Weakest Holonaut
-	name = "\improper jittering figure"
-	desc = "A once humanoid figure, jittering uncontrollably, flickering in and out of existence."
-	icon_state = "holoman"
-	health = 70 // Less strong, as he isn't wearing anything.
+/mob/living/simple_animal/hostile/urist/hololab/holonautgrunt  // Weakest Holonaut
+	name = "\improper flickering figure"
+	desc = "A once humanoid figure, flickering uncontrollably in and out of existence."
+	icon_state = "holoman1"
+	health = 100 // Less strong, as he isn't wearing anything.
 	ranged = 0
 	attacktext = "grasps"
 	melee_damage_lower = 10
 	melee_damage_upper = 20
 
-/mob/living/simple_animal/hostile/urist/hololab/holonaut // More dangerous holonaut, with some resistance.
-	name = "\improper flickering holonaut"
+/mob/living/simple_animal/hostile/urist/hololab/holonautregular // More dangerous holonaut, with some resistance.
+	name = "\improper distorted holonaut"
 	desc = "A distorted flickering humanoid, wearing a spacesuit. The limbs inside the suit seem to struggle to move."
-	icon_state = "holonaut"
-	health = 100
+	icon_state = "holonaut2"
+	health = 150
 	resistance = 15 //
 	ranged = 0
 	attacktext = "grasps"
 	melee_damage_lower = 15
 	melee_damage_upper = 25
 
-/mob/living/simple_animal/hostile/urist/hololab/holonaut2 // Bad Boy Holonaut
-	name = "\improper distorting Holonaut"
-	desc = "A distorted flickering humanoid, wearing a orange spacesuit. The limbs inside seems to animate wildly, as if something were crawling inside it."
-	icon_state = "holonaut2"
-	health = 150
-	resistance = 25 // Stronker
+/mob/living/simple_animal/hostile/urist/hololab/holonautexploder // These Holonauts will explode when they get close enough to a target.
+	name = "\improper gesticulating Holonaut"
+	desc = "A humanoid gesticulating wildly, wearing a orange spacesuit. The limbs inside seems to animate wildly, as if something were crawling inside it. It looks full of energy!"
+	icon_state = "holonaut3"
+	health = 50 // Weak, but dangerous up close.
+	resistance = 
 	ranged = 0
 	attacktext = "grasps tightly"
 	melee_damage_lower = 25
@@ -67,7 +67,7 @@
 		new /obj/effect/decal/cleanable/ash (src.loc)
 		for(var/mob/M in viewers(src, null))
 			if((M.client && !( M.blinded )))
-				M.show_message("<span class='warning'>[src] jitters uncontrollably until bursting into a small pile of ash.</span>")
+				M.show_message("<span class='warning'>[src] jitters uncontrollably until disintergrating into a small pile of ash.</span>")
 				ghostize()
 		qdel(src)
 		return
