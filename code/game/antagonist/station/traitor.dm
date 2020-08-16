@@ -76,6 +76,8 @@ GLOBAL_DATUM_INIT(traitors, /datum/antagonist/traitor, new)
 		if(istype(traitor_mob, /mob/living/silicon/robot))
 			var/mob/living/silicon/robot/R = traitor_mob
 			R.SetLockdown(0)
+			R.emagged = 1 //Gives Traitor Borgs  their own emagged items.
+			R.verbs |= /mob/living/silicon/robot/proc/ResetSecurityCodes	// Allows Borgies to sever cameras to themselves.
 		return 1
 
 	if(!..())

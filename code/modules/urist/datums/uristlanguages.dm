@@ -33,7 +33,18 @@
 //Syllable Lists
 
 /datum/language/mekanik/syllables = list(
-"hur","dëh", "ant", "wurdah ", "zik", "köhn", "ork", "bahnn", "strain", "wort", "siš", "felt", "wirt",
-"da", "fünk", "zort", "wuhr", "di", "heul", "urwah ", "glaö", "šteuhr", "wurd", "dowëri", "rin", "sün",
-"hirr", "ünt", "tlait", "wowosëhn", "ri", "wölt"
+"hur","dï¿½h", "ant", "wurdah ", "zik", "kï¿½hn", "ork", "bahnn", "strain", "wort", "siï¿½", "felt", "wirt",
+"da", "fï¿½nk", "zort", "wuhr", "di", "heul", "urwah ", "glaï¿½", "ï¿½teuhr", "wurd", "dowï¿½ri", "rin", "sï¿½n",
+"hirr", "ï¿½nt", "tlait", "wowosï¿½hn", "ri", "wï¿½lt"
 )
+
+/datum/language/fungalmind	// Moldmen Language.
+	name = LANGUAGE_FUNGALMIND
+	desc = "A whistling tone, used by Protoboletus to communicate over large distances."
+	speech_verb = "tones"
+	ask_verb = "trances"
+	exclaim_verb = "tomes"
+	colour = "alien"
+	key = "m"
+	flags = RESTRICTED | HIVEMIND
+	shorthand = "N/A"

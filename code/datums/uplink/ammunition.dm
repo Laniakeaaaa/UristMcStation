@@ -106,3 +106,16 @@
 	name = ".38 EMP Ammmo Box (10 rounds)"
 	item_cost = 6
 	path = /obj/item/ammo_magazine/box/emp
+
+/datum/uplink_item/item/ammo/empslug
+	name = "Haywire Slug"
+	desc = "Single 12-gauge shotgun slug fitted with a single-use ion pulse generator"
+	item_cost = 1
+	path = /obj/item/ammo_casing/shotgun/emp
+
+/datum/uplink_item/item/ammo/bullpup //for zipguns
+	name = "Bullpup Rifle Magazine"
+	desc = "A magazine for bullpup assault rifles. Contains 15 rounds."
+	item_cost = 8
+	// path = /obj/item/ammo_magazine/mil_rifle
+
