@@ -2353,3 +2353,12 @@
 		var/create_stacks = Floor(created_volume)
 		if(create_stacks > 0)
 			new /obj/item/stack/medical/resin/handmade(T, create_stacks)
+
+// Hard Drugs
+
+///datum/chemical_reaction/yayo
+//	name = "Yayo"
+//	result = "yayo"
+//	mix_message = "The solution turns into a white fluffy powder"
+//	required_reagents = list(/datum/reagent/coca = 1, /datum/reagent/fuel = 1, /datum/reagent/sulfur = 1)
+//	result_amount = 0.5

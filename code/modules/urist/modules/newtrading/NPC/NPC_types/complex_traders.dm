@@ -45,3 +45,22 @@
 	wander = 0
 	npc_item_amount = 30
 	interact_screen = 2
+
+/mob/living/simple_animal/hostile/npc/colonist/trader/shadytrader
+	name = "Shady Figure"
+	npc_job_title = "???"
+	desc = "A human from one of Earth's diverse cultures. They look very shifty."
+	trade_categories_by_name = list("drugs")
+	suits = list(\
+		/obj/item/clothing/suit/chaplain_hoodie,\
+		/obj/item/clothing/suit/leathercoat\
+	)
+	suit_chance = 100
+	price_increase = 1.5
+	wander = 0
+	npc_item_amount = 10
+	interact_screen = 2
+	
+/mob/living/simple_animal/hostile/npc/colonist/shadytrader/New()
+	speech_triggers.Add(new /datum/npc_speech_trigger/drugdealer_response())
+	..()
