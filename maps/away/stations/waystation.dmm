@@ -1675,6 +1675,96 @@
 	color = "#cccccc"
 	},
 /area/spacestations/nanotrasenspace)
+"eH" = (
+/obj/structure/hygiene/urinal{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/spiderling_remains,
+/turf/simulated/floor/plating,
+/area/spacestations/nanotrasenspace)
+"eQ" = (
+/obj/structure/hygiene/urinal{
+	pixel_y = 32
+	},
+/obj/machinery/light/small{
+	icon_state = "bulb_map";
+	dir = 8
+	},
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/plating,
+/area/spacestations/nanotrasenspace)
+"oJ" = (
+/obj/machinery/light/small{
+	icon_state = "bulb_map";
+	dir = 1
+	},
+/obj/machinery/recharge_station,
+/turf/simulated/floor/tiled,
+/area/spacestations/nanotrasenspace)
+"qB" = (
+/obj/structure/hygiene/toilet{
+	icon_state = "toilet00";
+	dir = 8
+	},
+/obj/machinery/light/small{
+	icon_state = "bulb_map";
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/spacestations/nanotrasenspace)
+"ud" = (
+/obj/machinery/door/airlock/civilian,
+/turf/simulated/floor/tiled,
+/area/spacestations/nanotrasenspace)
+"vv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/tiled,
+/area/spacestations/nanotrasenspace)
+"vy" = (
+/obj/item/weapon/storage/mirror{
+	pixel_x = -32
+	},
+/obj/structure/hygiene/sink{
+	icon_state = "sink";
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/turf/simulated/floor/tiled,
+/area/spacestations/nanotrasenspace)
+"xb" = (
+/turf/simulated/floor/tiled,
+/area/spacestations/nanotrasenspace)
+"BE" = (
+/obj/item/weapon/storage/mirror{
+	pixel_x = -32
+	},
+/obj/structure/hygiene/sink{
+	icon_state = "sink";
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating,
+/area/spacestations/nanotrasenspace)
+"Cn" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled,
+/area/spacestations/nanotrasenspace)
+"ZD" = (
+/obj/structure/hygiene/sink{
+	icon_state = "sink";
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/turf/simulated/floor/tiled,
+/area/spacestations/nanotrasenspace)
 
 (1,1,1) = {"
 aa
@@ -3349,7 +3439,7 @@ aa
 aa
 aa
 ab
-ab
+ac
 ac
 ac
 ac
@@ -3399,15 +3489,15 @@ aa
 aa
 aa
 aa
-aa
-aa
 ab
+ab
+ac
 ac
 ac
 ac
 aW
 bk
-bn
+aZ
 bn
 bn
 bn
@@ -3449,11 +3539,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
 ab
+ab
+ab
+ac
+ac
 ac
 ac
 ac
@@ -3501,11 +3591,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
 ab
+ac
+ac
+ac
+ac
 ac
 ac
 aH
@@ -3553,15 +3643,15 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
 ab
 ac
-ac
-ac
-aZ
+eQ
+BE
+ZD
+vy
+vv
+ud
+bn
 bn
 bn
 bn
@@ -3605,13 +3695,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
 ab
 ac
-ac
+eH
+xb
+xb
+xb
+Cn
 aI
 ba
 ba
@@ -3657,13 +3747,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
 ab
 ac
+ud
 ac
+ud
+ac
+ud
 ac
 bb
 bo
@@ -3709,13 +3799,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
 ab
 ac
+qB
 ac
+qB
+ac
+oJ
 ac
 bc
 bd
@@ -3761,11 +3851,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
 ab
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -3813,10 +3903,10 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
+ab
+ab
+ab
+ab
 ab
 ac
 ac
@@ -3868,7 +3958,7 @@ aa
 aa
 aa
 aa
-aa
+ab
 ab
 ac
 ac

@@ -848,3 +848,60 @@
 	heating_products = list(/datum/reagent/acetone, /datum/reagent/carbon, /datum/reagent/ethanol)
 	heating_point = 145 CELCIUS
 	heating_message = "separates."
+
+/datum/reagent/yayo
+	name = "Yayo"
+	description = "Yayo is an illegal substance, often thought of as the drug of the rich. It is consumed nasally."
+	taste_description = "bitter metallic"
+	overdose = REAGENTS_OVERDOSE
+	metabolism = REM * 0.5
+	reagent_state = LIQUID
+	color = "#e0e0e0"
+
+/datum/reagent/yayo/affect_blood(var/mob/living/carbon/M)
+	M.add_chemical_effect(CE_PAINKILLER,10)
+	M.adjustBrainLoss(0.25)
+	if(prob(15))
+		M.emote(pick("shiver", "sniff", "sneeze"))
+		..()
+
+/datum/reagent/drug/yayo/overdose(var/mob/living/M as mob)
+	if(prob(50))
+		M.adjustToxLoss(10)
+		M.adjustBrainLoss(5)
+
+/datum/reagent/unika
+	name = "Unika"
+	description = "A cheap desomorphine derivative, known for causing necrosis on the skin of longtime users."
+	taste_description = "gasoline"
+	overdose = REAGENTS_OVERDOSE
+	metabolism = REM * 0.3
+	reagent_state = LIQUID
+	color = "#ca812e"
+
+/datum/reagent/flake
+	name = "Flake"
+	description = "Flake, a cheap synthetic drug often found in less wealthy districts. Known for it's severe hallucinations and hyperstimulation."
+	taste_description = "gravel"
+	overdose = REAGENTS_OVERDOSE
+	metabolism = REM * 0.4
+	reagent_state = LIQUID
+	color = "#b6b4b1"
+
+/datum/reagent/noctite
+	name = "Noctite"
+	description = "Noctite, a very rare drug that induces a state of bliss and euphoria, and is said to be incredibly addictive. Rumours state that it's harvested from the bodies of living people."
+	taste_description = "blood"
+	overdose = REAGENTS_OVERDOSE
+	metabolism = REM * 0.5
+	reagent_state = LIQUID
+	color = "#d32323c7"
+
+/datum/reagent/dragon
+	name = "Dragon"
+	description = "Dragon, an incredibly addictive opitate, with strong painkilling effects. Great for chasing the dragon."
+	taste_description = "bitter"
+	overdose = REAGENTS_OVERDOSE
+	metabolism = REM * 0.9
+	reagent_state = LIQUID
+	color = "#979248"

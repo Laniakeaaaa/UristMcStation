@@ -159,3 +159,12 @@
 		"I have a cousin that fought against the Lactera during the Galactic Crisis as part of ANFOR. He would always tell stories about their ruthless efficiency.",\
 		"Lactera raiders are bad, but at least the other alien species that attacked us during the Galactic Crisis don't seem to be a threat anymore. Have you heard about the Faithless? Apparently they were far more terrifying than the Lactera.",\
 		"Have you ever seen a Lactera up close? Apparently they look a lot like Unathi.")
+
+datum/npc_speech_trigger/drugdealer_response
+	trigger_word  = list("drugs")
+	responses = list(\
+		"Hey, kid. I've got some good shit here, provided you have the thalers for it.",\
+		"I got this off a nearby pirate vessel, some of this stuff will give you a real head high.",\
+		"Psst, over here. I've got what you need.",\
+		"I saw someone take a shitload of yayo, the cops shot him multiple times and he kept going, craziest shit I've seen.",\
+		"Need something to take the stress away? I don't do freebies for this merch.")
