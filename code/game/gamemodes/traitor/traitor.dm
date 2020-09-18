@@ -17,15 +17,3 @@
 	antag_scaling_coeff = 5
 	end_on_antag_death = FALSE
 	latejoin_antag_tags = list(MODE_TRAITOR)
-
-/datum/game_mode/traitor/verb/traitor_help()
-	set category = "OOC"
-	set name = "Display Help"
-	set desc = "Opens help window with overview of available hardware, software and other important information."
-	var/mob/living/silicon/ai/user = usr
-
-	var/help = file2text('ingame_manuals/guidetosyndicate.html')
-	if(!help)
-		help = "Error loading help (file /ingame_manuals/guidetosyndicate.html is probably missing). Please report this to server administration staff."
-
-	user << browse(help, "window=guidetosyndicatehelp;size=600x500")
