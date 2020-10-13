@@ -50,7 +50,6 @@
 	spawn_ships = FALSE
 	start_x = 15
 	start_y = 18
-	spawn_type = /mob/living/simple_animal/hostile/overmapship/nanotrasen/ntmerchant
 
 	initial_generic_waypoints = list(
 		"way_trading_1",

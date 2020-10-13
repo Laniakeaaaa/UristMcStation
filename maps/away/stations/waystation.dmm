@@ -612,21 +612,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/spacestations/nanotrasenspace)
-"bG" = (
-/obj/structure/bed/chair/urist/bench/bench1/right{
-	tag = "icon-benchright (WEST)";
-	icon_state = "benchright";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/blue{
-	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark{
-	color = "#cccccc"
-	},
-/area/spacestations/nanotrasenspace)
 "bH" = (
 /obj/structure/bed/chair/urist/bench/bench1/left{
 	tag = "icon-benchleft (EAST)";
@@ -3082,7 +3067,7 @@ ae
 aS
 af
 bv
-bG
+bv
 bM
 bv
 af

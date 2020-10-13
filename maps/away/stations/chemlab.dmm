@@ -1,0 +1,4534 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/space,
+/area/space)
+"ab" = (
+/turf/simulated/mineral,
+/area/space)
+"ac" = (
+/turf/simulated/wall/r_wall,
+/area/space)
+"ad" = (
+/turf/simulated/floor/tiled,
+/area/space)
+"ae" = (
+/obj/structure/table/glass,
+/turf/simulated/floor/tiled,
+/area/space)
+"af" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/tiled,
+/area/space)
+"ag" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled,
+/area/space)
+"ah" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor/tiled,
+/area/space)
+"ai" = (
+/turf/simulated/floor/plating,
+/area/space)
+"aj" = (
+/obj/effect/paint/hull,
+/obj/machinery/light/spot{
+	pixel_y = 32
+	},
+/turf/simulated/wall/titanium,
+/area/space)
+"ak" = (
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/space)
+"al" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular/open{
+	density = 0;
+	dir = 1;
+	icon_state = "pdoor0";
+	id = "calypso_shutters";
+	name = "Protective Shutters";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"am" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"an" = (
+/turf/simulated/floor/reinforced,
+/area/space)
+"ao" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10;
+	icon_state = "corner_white";
+	tag = "icon-corner_white (SOUTHWEST)"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"ap" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10;
+	icon_state = "corner_white";
+	tag = "icon-corner_white (SOUTHWEST)"
+	},
+/obj/effect/floor_decal/urist/nervalogo,
+/obj/machinery/camera/network/fourth_deck{
+	c_tag = "Fourth Deck Primary Hallway Center";
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"aq" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10;
+	icon_state = "corner_white";
+	tag = "icon-corner_white (SOUTHWEST)"
+	},
+/obj/effect/floor_decal/urist/nervalogo{
+	dir = 2;
+	icon_state = "nerva2";
+	tag = "icon-nerva2"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"ar" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/structure/handrai{
+	dir = 4;
+	icon_state = "handrail";
+	tag = "icon-handrail (EAST)"
+	},
+/obj/machinery/power/port_gen/pacman,
+/obj/machinery/alarm{
+	dir = 4;
+	icon_state = "alarm0";
+	pixel_x = -22
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"as" = (
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10;
+	icon_state = "intact-supply"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"at" = (
+/obj/structure/table/steel_reinforced,
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/cell_charger,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/handrai,
+/obj/random_multi/single_item/boombox,
+/turf/simulated/floor/plating,
+/area/space)
+"au" = (
+/obj/structure/cable/cyan{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/smes/buildable/preset/nerva/shuttle,
+/turf/simulated/floor/plating,
+/area/space)
+"av" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular/open{
+	density = 0;
+	dir = 1;
+	icon_state = "pdoor0";
+	id = "calypso_shutters";
+	name = "Protective Shutters";
+	opacity = 0
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"aw" = (
+/obj/effect/paint/hull,
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/wall/titanium,
+/area/space)
+"ax" = (
+/obj/machinery/shipsensors,
+/obj/machinery/light/spot{
+	pixel_y = 32
+	},
+/obj/structure/cable/cyan{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"ay" = (
+/obj/machinery/space_heater,
+/turf/simulated/floor/plating,
+/area/space)
+"az" = (
+/obj/machinery/door/airlock/glass{
+	name = "Central Access"
+	},
+/obj/effect/catwalk_plated,
+/turf/simulated/floor/plating,
+/area/space)
+"aA" = (
+/obj/structure/table/rack,
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -25
+	},
+/obj/structure/cable/cyan{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/item/device/spaceflare,
+/obj/item/device/radio,
+/obj/item/weapon/storage/belt/utility/full,
+/obj/item/weapon/material/hatchet,
+/obj/item/stack/material/phoron/ten,
+/turf/simulated/floor/plating,
+/area/space)
+"aB" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/plating,
+/area/space)
+"aC" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"aD" = (
+/obj/machinery/power/terminal{
+	dir = 1;
+	icon_state = "term"
+	},
+/obj/structure/handrai{
+	dir = 8;
+	icon_state = "handrail"
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"aE" = (
+/obj/effect/paint/hull,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/wall/titanium,
+/area/space)
+"aF" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/computer/ship/helm,
+/turf/simulated/floor/tiled,
+/area/space)
+"aG" = (
+/obj/machinery/computer/shuttle_control/explore/trajan,
+/turf/simulated/floor/tiled,
+/area/space)
+"aH" = (
+/obj/machinery/computer/ship/engines,
+/turf/simulated/floor/tiled,
+/area/space)
+"aI" = (
+/obj/effect/paint/hull,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/wall/titanium,
+/area/space)
+"aJ" = (
+/obj/structure/fireaxecabinet,
+/turf/simulated/floor/reinforced,
+/area/space)
+"aK" = (
+/obj/random/firstaid,
+/turf/simulated/floor/plating,
+/area/space)
+"aL" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4;
+	icon_state = "intact-scrubbers";
+	tag = "icon-intact-scrubbers (EAST)"
+	},
+/obj/effect/catwalk_plated,
+/turf/simulated/floor/plating,
+/area/space)
+"aM" = (
+/obj/structure/table/rack,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/item/weapon/module/power_control,
+/obj/random/powercell,
+/obj/random/toolbox,
+/obj/item/device/radio/intercom{
+	dir = 1;
+	pixel_y = -28
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/handrai{
+	dir = 4;
+	icon_state = "handrail";
+	tag = "icon-handrail (EAST)"
+	},
+/obj/item/weapon/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/item/weapon/reagent_containers/spray/cleaner,
+/turf/simulated/floor/plating,
+/area/space)
+"aN" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10;
+	icon_state = "intact-scrubbers"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/plating,
+/area/space)
+"aO" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/recharge_station,
+/obj/machinery/camera/network/trajan{
+	c_tag = "Trajan Power Room";
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"aP" = (
+/obj/machinery/power/port_gen/pacman{
+	anchored = 1;
+	sheets = 50
+	},
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"aQ" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/device/radio,
+/obj/item/device/radio,
+/obj/item/weapon/storage/box/glowsticks,
+/obj/structure/table/standard,
+/obj/item/weapon/storage/box/survivalkit,
+/turf/simulated/floor/tiled,
+/area/space)
+"aR" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 1;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"aS" = (
+/obj/effect/overmap/ship/landable/trajan,
+/obj/machinery/hologram/holopad/longrange,
+/turf/simulated/floor/tiled,
+/area/space)
+"aT" = (
+/obj/structure/table/standard,
+/obj/machinery/button/remote/blast_door{
+	id = "calypso_shutters";
+	name = "Protective Shutters Control";
+	pixel_x = 0
+	},
+/obj/random/firstaid,
+/obj/item/bodybag/cryobag,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"aU" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular/open{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "calypso_shutters";
+	name = "Protective Shutters";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"aV" = (
+/obj/structure/closet,
+/turf/simulated/floor/tiled,
+/area/space)
+"aW" = (
+/obj/machinery/door/airlock/maintenance,
+/turf/simulated/floor/plating,
+/area/space)
+"aX" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "Shuttle Power";
+	req_access = newlist()
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/plating,
+/area/space)
+"aY" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/handrai{
+	dir = 4;
+	icon_state = "handrail";
+	tag = "icon-handrail (EAST)"
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -26;
+	pixel_y = 2
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"aZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9;
+	icon_state = "intact-scrubbers";
+	tag = "icon-intact-scrubbers (NORTHWEST)"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"ba" = (
+/obj/structure/bed/chair/shuttle/blue,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bb" = (
+/obj/structure/table/standard,
+/obj/random/toolbox,
+/obj/item/device/analyzer,
+/obj/item/weapon/cell/super,
+/obj/item/device/spaceflare,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bc" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/tiled,
+/area/space)
+"bd" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/plating,
+/area/space)
+"be" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"bf" = (
+/obj/structure/bed/chair/shuttle/black{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bg" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8;
+	icon_state = "map-supply"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bh" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/handrai,
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bi" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/handrai,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bj" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Cockpit";
+	req_access = list("ACCESS_TRAJAN_HELM")
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bk" = (
+/obj/machinery/alarm{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -22
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9;
+	icon_state = "intact-scrubbers";
+	tag = "icon-intact-scrubbers (NORTHWEST)"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9;
+	icon_state = "intact-supply";
+	tag = "icon-intact (SOUTHWEST)"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bl" = (
+/obj/machinery/power/apc{
+	cell_type = /obj/item/weapon/cell/high;
+	dir = 2;
+	name = "south bump";
+	pixel_y = -24
+	},
+/obj/structure/cable/cyan{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/camera/network/trajan{
+	c_tag = "Trajan Cockpit";
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bm" = (
+/obj/machinery/computer/ship/sensors{
+	dir = 1;
+	icon_state = "computer"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bn" = (
+/obj/machinery/computer/general_air_control{
+	dir = 1;
+	icon_state = "computer";
+	name = "Atmospheric Sensors";
+	sensors = list("trajan_out");
+	tag = "icon-computer (WEST)"
+	},
+/obj/item/device/radio/intercom{
+	dir = 1;
+	name = "Station Intercom (General)";
+	pixel_y = -28
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bo" = (
+/obj/structure/bed/chair/shuttle/black{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bp" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4;
+	icon_state = "map-supply"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled,
+/area/space)
+"bq" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"br" = (
+/obj/structure/closet/medical_wall/filled{
+	pixel_x = 26
+	},
+/obj/random/firstaid,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/structure/table/steel_reinforced,
+/obj/effect/floor_decal/corner/green{
+	dir = 10;
+	icon_state = "corner_white"
+	},
+/obj/item/bodybag/cryobag,
+/turf/simulated/floor/tiled,
+/area/space)
+"bs" = (
+/obj/machinery/door/airlock/external,
+/turf/simulated/floor/plating,
+/area/space)
+"bt" = (
+/obj/effect/paint/black,
+/turf/simulated/wall/ocp_wall,
+/area/space)
+"bu" = (
+/obj/machinery/door/airlock/centcom,
+/turf/simulated/floor/tiled/steel_ridged,
+/area/space)
+"bv" = (
+/obj/structure/bed/chair/shuttle/black{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled,
+/area/space)
+"bx" = (
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"by" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/tank/air,
+/turf/simulated/floor/plating,
+/area/space)
+"bz" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"bA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/machinery/meter,
+/obj/structure/cable/cyan{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/handrai,
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"bB" = (
+/obj/machinery/portable_atmospherics/canister/empty,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"bC" = (
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"bD" = (
+/obj/effect/floor_decal/steeldecal/steel_decals_central6,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"bE" = (
+/obj/structure/closet/crate/freezer,
+/obj/structure/handrai{
+	icon_state = "handrail";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/tiled/techfloor,
+/area/space)
+"bF" = (
+/obj/structure/closet/crate/freezer,
+/obj/structure/handrai,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"bG" = (
+/obj/item/weapon/paper/marooned/note06,
+/obj/random/trash,
+/obj/item/weapon/paper/marooned/note08,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"bH" = (
+/obj/machinery/space_heater,
+/obj/structure/handrai,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"bI" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/tiled/techfloor,
+/area/space)
+"bJ" = (
+/obj/structure/bed/chair/shuttle/black{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/alarm{
+	dir = 4;
+	icon_state = "alarm0";
+	pixel_x = -22
+	},
+/obj/machinery/camera/network/trajan{
+	c_tag = "Trajan Main Compartment";
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bK" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8;
+	icon_state = "map-supply"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8;
+	icon_state = "map-scrubbers"
+	},
+/obj/item/device/radio/beacon/anchored{
+	level = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bL" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/hologram/holopad/longrange,
+/turf/simulated/floor/tiled,
+/area/space)
+"bM" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "Shuttle Atmospherics";
+	req_access = newlist()
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"bO" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1;
+	icon_state = "map-supply"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"bP" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8;
+	icon_state = "map_vent_out"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"bQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/cyan{
+	dir = 6;
+	icon_state = "intact"
+	},
+/obj/machinery/meter,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"bR" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"bS" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/weapon/paper/marooned/note04,
+/obj/item/weapon/paper/marooned/note05{
+	pixel_x = -3;
+	pixel_y = 1
+	},
+/obj/structure/handrai{
+	icon_state = "handrail";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/tiled/techfloor,
+/area/space)
+"bT" = (
+/obj/item/trash/liquidfood,
+/obj/item/trash/liquidfood,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"bU" = (
+/obj/random/trash,
+/obj/effect/floor_decal/steeldecal/steel_decals_central7,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"bV" = (
+/obj/item/weapon/paper/marooned/note07{
+	pixel_x = 6
+	},
+/obj/random/trash,
+/obj/effect/decal/cleanable/blood/drip,
+/obj/structure/bed,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"bW" = (
+/obj/structure/bed/chair/shuttle/black{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -25
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	req_access = 1
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bY" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"bZ" = (
+/obj/structure/table/rack,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/weapon/storage/box/glowsticks,
+/obj/item/device/spaceflare,
+/obj/item/device/radio,
+/obj/item/weapon/material/hatchet,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/item/device/radio,
+/turf/simulated/floor/tiled,
+/area/space)
+"ca" = (
+/obj/effect/paint/hull,
+/obj/effect/shuttle_landmark/nerva/hangar/exploration_shuttle,
+/turf/simulated/wall/titanium,
+/area/space)
+"cb" = (
+/obj/machinery/pipedispenser/orderable,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"cc" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
+	},
+/obj/item/device/radio/intercom{
+	dir = 1;
+	name = "Station Intercom (General)";
+	pixel_y = -28
+	},
+/obj/machinery/camera/network/trajan{
+	c_tag = "Trajan Atmospherics";
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"cd" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/cyan,
+/obj/machinery/alarm{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -22
+	},
+/obj/structure/handrai{
+	dir = 1;
+	icon_state = "handrail"
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"ce" = (
+/obj/machinery/atmospherics/pipe/tank/air{
+	dir = 8;
+	icon_state = "air_map";
+	tag = "icon-air_map (WEST)"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/plating,
+/area/space)
+"cf" = (
+/obj/structure/handrai{
+	icon_state = "handrail";
+	dir = 4
+	},
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 4
+	},
+/obj/item/trash/liquidfood,
+/obj/item/trash/liquidfood,
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/tiled/techfloor,
+/area/space)
+"cg" = (
+/obj/item/trash/liquidfood,
+/obj/item/trash/liquidfood,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"ch" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	req_access = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"ci" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/handrai{
+	dir = 8;
+	icon_state = "handrail"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/item/device/radio/intercom{
+	dir = 8;
+	name = "Station Intercom (General)";
+	pixel_x = 22
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"cj" = (
+/obj/structure/handrai{
+	icon_state = "handrail";
+	dir = 4
+	},
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/tiled/techfloor,
+/area/space)
+"ck" = (
+/obj/item/weapon/wirecutters,
+/obj/item/stack/cable_coil,
+/obj/machinery/power/port_gen/pacman/super,
+/obj/structure/cable{
+	icon_state = "0-5";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"cl" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"cm" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 32;
+	pixel_y = -10
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 32;
+	pixel_y = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"cn" = (
+/obj/structure/handrai,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"co" = (
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cp" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cq" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/random/maintenance/clean,
+/obj/random/maintenance/clean,
+/obj/random/maintenance/clean,
+/obj/item/device/radio,
+/obj/structure/closet,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cr" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/freezer/rations,
+/obj/item/weapon/material/knife/butch,
+/obj/item/weapon/beartrap,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cs" = (
+/obj/structure/inflatable/wall,
+/obj/structure/handrai{
+	icon_state = "handrail";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"ct" = (
+/obj/structure/inflatable/door,
+/obj/structure/cable{
+	icon_state = "1-6";
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"cu" = (
+/obj/structure/inflatable/wall,
+/obj/structure/handrai{
+	icon_state = "handrail";
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"cv" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8;
+	icon_state = "map-scrubbers"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/turf/simulated/floor/tiled,
+/area/space)
+"cw" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4;
+	icon_state = "intact-scrubbers";
+	tag = "icon-intact-scrubbers (EAST)"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"cx" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4;
+	icon_state = "intact-scrubbers";
+	tag = "icon-intact-scrubbers (EAST)"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cy" = (
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4;
+	icon_state = "intact-scrubbers";
+	tag = "icon-intact-scrubbers (EAST)"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cz" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4;
+	icon_state = "intact-scrubbers";
+	tag = "icon-intact-scrubbers (EAST)"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10;
+	icon_state = "intact-supply"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cA" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4;
+	icon_state = "intact-scrubbers";
+	tag = "icon-intact-scrubbers (EAST)"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cB" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/floodlight,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cC" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/roller,
+/obj/item/roller,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cD" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9;
+	icon_state = "intact-scrubbers";
+	tag = "icon-intact-scrubbers (NORTHWEST)"
+	},
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1331;
+	master_tag = "trajan_shuttle";
+	pixel_x = -22;
+	pixel_y = -22
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"cE" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"cF" = (
+/obj/machinery/door/airlock/hatch,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cG" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	req_access = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cI" = (
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cK" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 2;
+	frequency = 1331;
+	id_tag = "trajan_shuttle_pump_out_external"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/structure/handrai{
+	dir = 8;
+	icon_state = "handrail"
+	},
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1331;
+	master_tag = "trajan_shuttle";
+	pixel_x = 20;
+	pixel_y = 20
+	},
+/obj/machinery/oxygen_pump{
+	pixel_y = 32
+	},
+/obj/machinery/camera/network/trajan{
+	c_tag = "Trajan Airlock - Exterior"
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"cL" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1331;
+	id_tag = "trajan_shuttle_inner";
+	name = "Trajan External Access"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"cM" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1331;
+	id_tag = "trajan_shuttle_inner";
+	name = "Trajan External Access"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"cN" = (
+/obj/structure/cable/cyan,
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -25
+	},
+/obj/machinery/conveyor_switch{
+	id = "Trajanmain"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cO" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cP" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cQ" = (
+/obj/structure/handrai{
+	dir = 8;
+	icon_state = "handrail"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cR" = (
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 8
+	},
+/obj/machinery/air_sensor{
+	id_tag = "trajan_out"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"cS" = (
+/obj/machinery/door/airlock/external{
+	density = 1;
+	frequency = 1331;
+	id_tag = "trajan_shuttle_outer";
+	name = "Trajan External Access"
+	},
+/obj/machinery/shield_diffuser,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1;
+	icon_state = "map"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"cT" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	cycle_to_external_air = 1;
+	frequency = 1331;
+	id_tag = "trajan_shuttle";
+	pixel_x = 0;
+	pixel_y = 24;
+	tag_exterior_sensor = "trajan_shuttle_sensor_external"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9;
+	icon_state = "warning"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8;
+	frequency = 1331;
+	id_tag = "trajan_shuttle_pump_out_internal"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"cU" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"cV" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/camera/network/trajan{
+	c_tag = "Trajan Airlock - Interior";
+	dir = 8;
+	icon_state = "camera"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4;
+	icon_state = "map"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"cW" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/machinery/conveyor{
+	id = "Trajanmain"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cX" = (
+/obj/machinery/light/small{
+	dir = 4;
+	luminosity = 2
+	},
+/obj/machinery/conveyor,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"cY" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1;
+	frequency = 1331;
+	id_tag = "trajan_shuttle_pump_out_external"
+	},
+/obj/machinery/airlock_sensor{
+	frequency = 1331;
+	id_tag = "trajan_shuttle_sensor_external";
+	pixel_x = 25;
+	pixel_y = -25
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/structure/handrai{
+	dir = 1;
+	icon_state = "handrail"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"cZ" = (
+/obj/machinery/door/airlock/external{
+	density = 1;
+	frequency = 1331;
+	id_tag = "trajan_shuttle_outer";
+	name = "Trajan External Access"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"da" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8;
+	frequency = 1331;
+	id_tag = "trajan_shuttle_pump_out_internal"
+	},
+/obj/structure/handrai{
+	dir = 1;
+	icon_state = "handrail"
+	},
+/obj/machinery/oxygen_pump{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"db" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/light/small,
+/obj/structure/handrai{
+	dir = 1;
+	icon_state = "handrail"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1;
+	frequency = 1331;
+	id_tag = "trajan_shuttle_pump"
+	},
+/obj/machinery/airlock_sensor{
+	frequency = 1331;
+	id_tag = "trajan_shuttle_sensor";
+	pixel_x = 0;
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"dc" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1;
+	frequency = 1331;
+	id_tag = "trajan_shuttle_pump"
+	},
+/obj/item/device/radio/intercom{
+	dir = 1;
+	pixel_y = -28
+	},
+/obj/structure/handrai{
+	dir = 1;
+	icon_state = "handrail"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"dd" = (
+/obj/machinery/conveyor{
+	id = "Trajanmain"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"de" = (
+/obj/machinery/atmospherics/portables_connector,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"df" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate,
+/obj/machinery/camera/network/trajan{
+	c_tag = "Trajan Cargo Bay";
+	dir = 1;
+	icon_state = "camera"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"dg" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/ore_box,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"dh" = (
+/obj/machinery/disposal/deliveryChute{
+	dir = 1;
+	name = "disposal inlet"
+	},
+/obj/structure/disposalpipe/trunk,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"di" = (
+/obj/structure/plasticflaps/mining/special,
+/obj/machinery/conveyor{
+	id = "Trajanmain"
+	},
+/turf/simulated/floor/plating/flaps,
+/area/space)
+"dj" = (
+/obj/effect/paint/hull,
+/obj/machinery/atmospherics/binary/passive_gate/on,
+/turf/simulated/wall/titanium,
+/area/space)
+"dk" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/space)
+"dl" = (
+/obj/effect/paint/red,
+/turf/simulated/wall/titanium,
+/area/space)
+"dm" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"dn" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"do" = (
+/obj/effect/paint/red,
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 4
+	},
+/turf/simulated/wall/titanium,
+/area/space)
+"dp" = (
+/obj/machinery/conveyor{
+	id = "Trajanmain"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"dq" = (
+/obj/effect/paint/red,
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel,
+/turf/simulated/wall/titanium,
+/area/space)
+"dr" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/camera/network/trajan{
+	c_tag = "Trajan Starboard Engines";
+	dir = 4;
+	icon_state = "camera"
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"ds" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"dt" = (
+/obj/structure/fuel_port,
+/obj/effect/paint/red,
+/turf/simulated/wall/titanium,
+/area/space)
+"du" = (
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1;
+	icon_state = "nozzle";
+	tag = "icon-nozzle (EAST)"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"dv" = (
+/obj/machinery/camera/network/trajan{
+	c_tag = "Trajan Port Engines";
+	dir = 8;
+	icon_state = "camera"
+	},
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1;
+	icon_state = "nozzle";
+	tag = "icon-nozzle (EAST)"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"dw" = (
+/obj/machinery/conveyor{
+	id = "Trajanmain"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+"dx" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1;
+	icon_state = "nozzle";
+	tag = "icon-nozzle (EAST)"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/space)
+
+(1,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(2,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ai
+ai
+ai
+ai
+ai
+ai
+ai
+ai
+ai
+ai
+ai
+ai
+ai
+ak
+cK
+cR
+cY
+ak
+ai
+ai
+aa
+"}
+(3,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aj
+ak
+ak
+ak
+ak
+aU
+aU
+aU
+ak
+ak
+aU
+aU
+aU
+ak
+ak
+cS
+cZ
+ak
+dl
+dl
+aa
+"}
+(4,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ak
+ar
+aA
+aM
+ak
+bf
+bo
+bv
+bJ
+bW
+bv
+bv
+bo
+bf
+ak
+cT
+da
+ak
+dm
+du
+aa
+"}
+(5,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+al
+as
+aB
+aN
+aX
+bg
+bp
+bw
+bK
+bX
+ch
+ch
+cv
+cD
+cL
+cU
+db
+ak
+dn
+du
+aa
+"}
+(6,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ak
+at
+aC
+aO
+ak
+bh
+bq
+bq
+bL
+bY
+ci
+cm
+cw
+cE
+cM
+cV
+dc
+ak
+dn
+dv
+aa
+"}
+(7,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ak
+au
+aD
+aP
+ak
+bi
+br
+bx
+bM
+bZ
+ak
+ak
+cx
+cF
+ak
+ak
+ak
+ak
+do
+dl
+aa
+"}
+(8,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ak
+ak
+aE
+ak
+ak
+bj
+ak
+ak
+bN
+ca
+ak
+cn
+cy
+cG
+cN
+cW
+dd
+di
+dp
+dw
+aa
+"}
+(9,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+am
+av
+aF
+aQ
+aY
+bk
+ak
+by
+bO
+cb
+ak
+co
+cz
+cH
+cO
+cI
+de
+dj
+dq
+dl
+aa
+"}
+(10,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+ai
+al
+aG
+aR
+aZ
+bl
+ak
+bz
+bP
+cc
+ak
+cp
+cA
+cI
+cI
+cI
+df
+ak
+dr
+du
+aa
+"}
+(11,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+ai
+al
+aH
+aS
+ba
+bm
+ak
+bA
+bQ
+cd
+ak
+cq
+cB
+cJ
+cP
+cI
+dg
+ak
+dn
+du
+aa
+"}
+(12,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+ai
+aw
+aI
+aT
+bb
+bn
+ak
+bB
+bR
+ce
+ak
+cr
+cC
+cI
+cQ
+cX
+dh
+dk
+ds
+dx
+aa
+"}
+(13,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+ai
+ax
+ak
+aU
+aU
+aU
+ak
+ak
+aU
+ak
+ak
+aU
+aU
+aU
+ak
+ak
+ak
+ak
+dt
+dl
+aa
+"}
+(14,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(15,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(16,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(17,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(18,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(19,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(20,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(21,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(22,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ac
+ac
+ac
+ad
+ad
+ac
+ac
+ac
+ab
+ac
+ac
+ac
+ac
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(23,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(24,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ac
+ac
+ac
+ac
+ac
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ac
+an
+an
+an
+ac
+ac
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(25,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ac
+ac
+ac
+ae
+ae
+ae
+ac
+ac
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+an
+an
+an
+an
+an
+ac
+ac
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(26,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ac
+aJ
+an
+an
+ac
+ac
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(27,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(28,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ab
+ac
+ac
+ac
+ac
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(29,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ab
+ac
+ac
+ac
+ac
+ac
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(30,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ac
+ac
+aV
+aV
+aV
+ac
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(31,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(32,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(33,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ac
+ac
+ac
+ae
+ae
+ae
+ac
+ac
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ac
+ac
+ac
+ad
+ad
+ac
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(34,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+af
+ah
+ac
+ac
+ac
+ac
+ab
+ab
+ac
+ad
+ad
+ac
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(35,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ab
+ab
+ab
+ab
+ac
+ad
+ad
+ac
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(36,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ag
+ac
+ab
+ac
+ac
+ac
+ac
+ad
+ad
+ac
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(37,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ag
+ac
+ab
+ac
+ai
+ai
+aW
+ad
+ad
+ac
+ac
+ac
+ac
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(38,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ac
+ad
+ad
+ad
+ad
+ad
+ad
+ac
+ab
+ac
+ay
+aK
+ac
+ad
+ad
+af
+bC
+bC
+af
+bd
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(39,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ac
+ac
+ac
+ac
+ag
+ag
+ac
+ac
+ab
+ac
+ac
+ac
+ac
+ad
+ad
+bs
+bD
+bC
+bs
+bd
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(40,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ac
+ac
+ac
+ac
+ab
+ab
+ab
+ab
+ab
+ac
+bc
+bc
+af
+bC
+bC
+af
+bd
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(41,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(42,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(43,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+aa
+aa
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(44,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(45,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+bt
+bE
+bS
+cf
+cj
+bt
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(46,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ao
+az
+aL
+az
+bd
+aa
+bt
+bF
+bT
+cg
+ck
+cs
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(47,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ap
+aa
+aL
+aa
+be
+aa
+bu
+bG
+bU
+bD
+cl
+ct
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(48,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aq
+az
+aL
+az
+bd
+aa
+bt
+bH
+bV
+bC
+bC
+cu
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(49,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+bt
+bI
+bI
+bI
+bI
+bt
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(50,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+bt
+bt
+bt
+bt
+bt
+bt
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
